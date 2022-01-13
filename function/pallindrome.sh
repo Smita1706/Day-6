@@ -12,7 +12,7 @@ done
 echo $reverse
 }
 
-result=$(isPallindromes $num)
+result=$(isPallindrome $num)
 if [ $num -eq $result ]
 then
 	echo "The number is Palindrone"
